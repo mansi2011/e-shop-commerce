@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initiak-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>e-shop | e-commerce website</title>
@@ -10,13 +11,13 @@
 </head>
 <body>
     <div class="header">
-    <div class="container">
+    <div class="container">`
         <div class="navbar">
             <div class="logo">
                 <img src="assets/logo.png" width="125px">
             </div>
             <nav>
-                <ul>
+                <ul id="menu-item">
                     <li><a href="">Home</a></li>
                     <li><a href="">Products</a></li>
                     <li><a href="">About</a></li>
@@ -26,6 +27,9 @@
             </nav>
             <a href="" class="cart"><i class="fa-solid fa-bag-shopping"></i></a>
             <a href="" class="wishlist"><i class="fa-regular fa-heart"></i></a>
+            <a class="menu-icon" onclick="menutoggle()">
+            <i class="fa-solid fa-bars"></i></a>
+
         </div>
 
         <div class="row">
@@ -115,6 +119,54 @@
             </div>
             <p>$65.00</p>
         </div>
+        <div class="col-4">
+            <img src="assets/product-9.jpg">
+            <h4 class="product-info">Roadster Black Mens Watch</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i> 
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$40.00</p>
+        </div>
+        <div class="col-4">
+            <img src="assets/product-5.jpg">
+            <h4 class="product-info">Casual Sports Shoe</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i> 
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>$165.00</p>
+        </div>
+        <div class="col-4">
+            <img src="assets/product-6.jpg">
+            <h4 class="product-info">Puma Black Tshirt</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i> 
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$65.00</p>
+        </div>
+        <div class="col-4">
+            <img src="assets/product-12.jpg">
+            <h4 class="product-info">Nike Mens' Sweatshirt</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i> 
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$80.00</p>
+        </div>
     </div>
 </div>
 
@@ -139,5 +191,18 @@
         </div>
     </div>
 </div>
+<script>
+    var menuItems = document.getElementById("menu-item")
+    menuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+    if(menuItems.style.maxHeight == "0px"){
+        menuItems.style.maxHeight = "300px"
+    }
+    else{
+        menuItems.style.maxHeight = "0px";
+    }
+}
+</script>
 </body>
 </html>

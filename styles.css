@@ -20,6 +20,7 @@ body{
     --rating-color:#ff523b;
     --footer-background:#000;
     --footer-font-color:#8a8a8a;
+    --menu-background: #333;
 }
 
 
@@ -207,10 +208,10 @@ a .wishlist{
 
 .footer-col-1 img{
     width: 18rem;
-    /* margin-bottom: 2rem; */
 }
 
 .footer-col-2{
+    flex: 1;
     text-align: center;
 }
 
@@ -232,4 +233,60 @@ ul{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.menu-icon{
+    display: none;
+}
+
+/* media query for menu */
+
+
+@media only screen and (max-width: 800px){
+    nav ul{
+        position: absolute;
+        top: 7rem;
+        left: 0;
+        background: var(--menu-background);
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    
+    }
+
+    nav ul li{
+        display: block;
+        margin: 1rem 0 1rem 1rem;
+        padding-right: 2rem;
+        padding-bottom: 0.5rem;
+    }
+
+    nav ul li a{
+        color: var(--white-font-color);
+    }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}
+
+
+/* media query for less than  600 screen size */
+
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    } 
+    .col-2,.col-3,.col-4{
+        flex-basis: 100%;
+    }   
+
+    .footer-col-1, .footer-col-2{
+        flex-basis: 100%;
+    }   
+
+    .footer-col-2 ul{
+        text-align: center;
+    }
 }
