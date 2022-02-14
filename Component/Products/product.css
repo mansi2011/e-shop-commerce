@@ -1,0 +1,37 @@
+.row-2{
+    justify-content: space-between;
+    margin: 4rem auto 1rem;
+}
+
+.product-row{
+    max-width: 55rem;
+    margin: 0 auto;
+}
+
+select{
+    border: 1px solid var(--btn-background);
+    padding: 0.5rem;
+}
+
+select:focus{
+    outline: none;
+}
+
+.page-btn{
+    padding: 2rem;
+    font-size: 1.5rem;
+    color: var(--home-page-font-color);
+}
+
+.page-btn span{
+    padding: 1rem;
+    cursor: pointer;   
+}
+
+.page-btn span:nth-child(2){
+    color: var(--btn-background) ;
+}
+
+.page-btn span:hover{
+    color: var(--btn-background);
+}
