@@ -298,17 +298,15 @@ ul{
         text-align: center;
     }
 
-    .single-product .row{
-        flex-direction: column;
-        /* justify-content: center; */
-        text-align: left;
-        margin: 0 auto;
-        max-width: fit-content;
-
+    .single-product .col-2 img{
+        padding: 0 3rem;
     }
 
-    .single-product .col-2{
-        padding: 2rem 0;
+    .single-product .row {
+        text-align: left;
+    }
+    .single-product .col-2 {
+        padding: 1rem 5rem;
     }
 
     .single-product .product-name{
