@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initiak-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-shop - products | e-commerce website</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://kit.fontawesome.com/0026fec354.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container">`
+        <div class="navbar">
+            <div class="logo">
+                <img src="/assets/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="menu-item">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/Component/Products/product.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <a href="" class="cart"><i class="fa-solid fa-bag-shopping"></i></a>
+            <a href="" class="wishlist"><i class="fa-regular fa-heart"></i></a>
+            <a class="menu-icon" onclick="menutoggle()">
+            <i class="fa-solid fa-bars"></i></a>
+
+        </div>
+    </div>
+
+<!-- -------single product details------------------>
+
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="/assets/gallery-1.jpg" width="70%">
+        </div>
+        <div class="col-2">
+            <p>Home / T-Shirt</p>
+            <p class="product-name">Red Printed T-Shirt by HRX</p>
+            <h4>$50.00</h4>
+            <select>
+                <option>Select Size</option>
+                <option>XXL</option>
+                <option>XL</option>
+                <option>Large</option>
+                <option>Medium</option>
+                <option>Small</option>
+            </select>
+            <input type="number" value="1" min="1">
+            <button class="btn-cart">Add To Cart</button>
+            <a href="" class="add-to-wishlist"><i class="fa-regular fa-heart"></i></a>
+            <h3 class="product-details">Product Details</h3>
+            <p class="product-info">Give your summer wardrobe a style upgrade with HRX Mens' Tshirt.
+                You can pair it with shorts while working out or denim for a casual look.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<div class="small-container">
+    <h2 class="recommended-product">Recommended Products</h2>
+    <div class="row product-row">
+        <div class="col-4">
+            <img src="/assets/product-8.jpg">
+            <h4 class="product-info">Fossil Matt Watch</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i> 
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$65.00</p>
+        </div>
+        <div class="col-4">
+            <img src="/assets/product-2.jpg">
+            <h4 class="product-info">HRX Mens' Shoes</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i> 
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="/assets/product-3.jpg">
+            <h4 class="product-info">Adidas Gray Shoes</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i> 
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$130.00</p>
+        </div>
+        <div class="col-4">
+            <img src="/assets/product-4.jpg">
+            <h4 class="product-info">Puma Blue Tshirt</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i> 
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>$65.00</p>
+        </div>
+      
+    </div>
+</div>
+
+<!-- ---------------------------footer------------------------------------->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <img src="/assets/logo-white.png">
+                <p> &copy; 2021 - neog e-commerce website design</p>
+            </div>
+            <div class="footer-col-2">
+                <h4>Social Links</h4>
+                <ul class="flex-center">
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-twitter-square"></i></li>
+                    <li><i class="fa-brands fa-instagram-square"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/app.js">
+
+</script>
+</body>
+</html>
