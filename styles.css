@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;700&display=swap');
 @import url("/Component/Products/product.css");
 @import url("/Component/Product-Details/product-details.css");
+@import url("/Component/Cart/cart.css");
 
 *{
     margin: 0;
