@@ -2,6 +2,7 @@
 @import url("/Component/Products/product.css");
 @import url("/Component/Product-Details/product-details.css");
 @import url("/Component/Cart/cart.css");
+@import url("/Component/Account/account.css");
 
 *{
     margin: 0;

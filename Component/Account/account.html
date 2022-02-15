@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initiak-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-shop - account | e-commerce website</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://kit.fontawesome.com/0026fec354.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container">`
+        <div class="navbar">
+            <div class="logo">
+                <img src="/assets/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="menu-item">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/Component/Products/product.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="/Component/Account/account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="/Component/Cart/cart.html" class="cart"><i class="fa-solid fa-bag-shopping"></i></a>
+            <a href="" class="wishlist"><i class="fa-regular fa-heart"></i></a>
+            <a class="menu-icon" onclick="menutoggle()">
+            <i class="fa-solid fa-bars"></i></a>
+
+        </div>
+    </div>
+
+
+    <!-- --------------account page---------------------------->
+
+    <div class="account-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="/assets/image1.png" width="100%">
+                </div>
+                <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-name">
+                            <span id="display-login">Login</span>
+                            <span id="display-register">Register</span>
+                        </div>
+
+                        <form id="login-form">
+                            <input type="text" placeholder="Username">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="form-btn">Login</button>
+                            <a href="" class="forgot-passord">Forgot password</a>
+                        </form>
+
+                        <div id="account-boolean">
+                            <p>Create a new account</p>
+                            <button class="btn-register" id="register">Register</button>
+                        </div>
+
+                        <form id="register-form">
+                            <input type="email" placeholder="Enter email">
+                            <input type="text" placeholder="Username">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="form-btn">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<!-- ---------------------------footer------------------------------------->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <img src="/assets/logo-white.png">
+                <p> &copy; 2021 - neog e-commerce website design</p>
+            </div>
+            <div class="footer-col-2">
+                <h4>Social Links</h4>
+                <ul class="flex-center">
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-twitter-square"></i></li>
+                    <li><i class="fa-brands fa-instagram-square"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/app.js">
+
+</script>
+</body>
+</html>
