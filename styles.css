@@ -242,6 +242,41 @@ ul{
     display: none;
 }
 
+
+.fa-bag-shopping{
+    position: relative;
+}
+
+.cart-item-list{
+    background: var(--btn-background);
+    color: var(--white-font-color);
+    font-size: x-small;
+    padding: 0.3rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0.3rem;
+    left: 0.7rem;
+
+}
+
+
+.fa-heart{
+    position: relative;
+}
+
+.item-list{
+    background: var(--btn-background);
+    color: var(--white-font-color);
+    padding: 0.2rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 0.8rem;
+    bottom:0.4rem;
+    font-size: small;
+}
+
+
+
 /* media query for menu */
 
 
