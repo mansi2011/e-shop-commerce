@@ -3,6 +3,7 @@
 @import url("/Component/Product-Details/product-details.css");
 @import url("/Component/Cart/cart.css");
 @import url("/Component/Account/account.css");
+@import url("/Component/Wishlist/wishlist.css");
 
 *{
     margin: 0;
