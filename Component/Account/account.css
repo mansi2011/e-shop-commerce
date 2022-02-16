@@ -1,0 +1,78 @@
+.account-page{
+    padding: 5rem 0;
+    background: radial-gradient(var(--white-font-color),var(--page-background));
+}
+
+.form-container{
+    background: var(--white-font-color);
+    width: 30rem;
+    height: 40rem;
+    text-align: center;
+    padding: 2rem 0;
+    margin: auto;
+    box-shadow: 0 0 2rem 0 var(--menu-background,0.1);
+}
+
+.form-container span{
+    font-weight: bold;
+    padding: 0 1rem;
+    font-size: 1.6rem;
+    color: var(--home-page-font-color);
+    cursor: pointer;
+    width: 10rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.form-container form{
+    max-width: 30rem;
+    padding: 0 2rem;
+}
+
+form input{
+    width: 100%;
+    height: 3rem;
+    margin: 1rem 0;
+    padding: 0 1rem;
+    border: 1px solid var(--footer-font-color);
+    border-radius: 8rem;
+}
+
+.form-btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    color: var(--white-font-color);
+    background: var(--btn-background);
+    border-radius: 8rem;
+}
+
+.btn-register{
+    width: 50%;
+    border: 1px solid var(--btn-background);
+    cursor: pointer;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    color: var(--btn-background);
+    border-radius: 8rem;
+    background: var(--white-font-color);
+}
+
+#register-form{
+    display: none;
+}
+
+#display-register{
+    display: none;
+}
+
+.forgot-passord{
+    font-size: 0.8rem;
+    color: var(--menu-background)
+}
+
+.account-boolean p{
+    padding: 1rem;
+}
