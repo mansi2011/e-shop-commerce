@@ -290,6 +290,9 @@ ul{
 
 
 @media only screen and (max-width: 800px){
+    .logout{
+        padding-right: 1rem;
+    } 
     nav ul{
         position: absolute;
         top: 7rem;
@@ -329,6 +332,9 @@ ul{
     .logo{
         padding-left:0;
         padding-right: 2rem;
+    }
+    .logout{
+        padding-right: 1rem;
     }
     .row{
         text-align: center;
